@@ -36,7 +36,7 @@ defmodule MixLfe.MixProject do
 
   def deps do
     [
-      {:lfe, "~> 1.2"},
+      {:lfe, github: "rvirding/lfe", tag: "v1.3"},
       {:ltest, "0.10.0-rc6"},
       {:color, "~> 1.0", hex: :erlang_color},
       {:lutil, "~> 0.10.0-rc6"},
